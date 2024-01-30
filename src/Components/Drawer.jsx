@@ -48,7 +48,7 @@ function DrawerAppBar(props) {
 
 
     function openInNewTab(url) {
-        var win = window.open('https://drive.google.com/file/d/1HSNwkgD-vBW_HTKrM8PTx2jJsu8Qak5M/view', '_blank');
+        var win = window.open('https://drive.google.com/file/d/1sZzIiNkkhFXMurW6JyAfKlP1dFK0kqLq/view?usp=sharing', '_blank');
         win.focus();
       }
 
@@ -163,7 +163,7 @@ function DrawerAppBar(props) {
 
                             </Box>
                             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                                <a href="https://drive.google.com/file/d/1HSNwkgD-vBW_HTKrM8PTx2jJsu8Qak5M/view" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/1sZzIiNkkhFXMurW6JyAfKlP1dFK0kqLq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     <Button size={media ? 'medium' : 'small'} variant='contained' color="success">
                                         Resume
                                     </Button>
